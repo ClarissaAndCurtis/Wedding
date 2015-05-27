@@ -33,7 +33,7 @@ font-size:16px;
 margin-left:-10px;
 width:121px;
 height: 35px;
-line-height: 35px;
+line-height: 5px;
 float:left;
 color:#CEEAEE;
 font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
@@ -54,7 +54,7 @@ color:#0C61C9;
 display: block;
 width:121px;
 height: 35px;
-line-height: 35px;
+line-height: 5px;
 background-image:url(tab.png);
 
 }
@@ -81,6 +81,7 @@ height:325px;
 top:10px;
 background-image:url(CnC.jpg);
 background-repeat:no-repeat;
+background-size:100%;
 margin-left:10px;
 }
 
@@ -90,7 +91,7 @@ position:relative;
 top:30px;
 left:40px;
 font-size:25px;
-color:#FFFFFF;
+color:#000000;
 font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 
@@ -100,7 +101,7 @@ position:relative;
 top:30px;
 left:50px;
 font-size:14px;
-color:#A9C8FA;
+color:#999999;
 font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 
@@ -144,8 +145,9 @@ margin-right:13px;
 #footer {
 
 width: 670px;
-height:16px;
-background: url(footer.png) no-repeat;
+height:40px;
+background: url(footer2.png) no-repeat;
+background-position: bottom;
 text-align:center;
 font-size:9px;
 font-family:Arial, Helvetica, sans-serif;
