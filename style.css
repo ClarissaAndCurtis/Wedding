@@ -1,7 +1,5 @@
 /* A Free Design by Bryant Smith (bryantsmith.com) */
 
-
-
 body {
 	margin: 0;
 	padding: 0;
@@ -81,7 +79,7 @@ position:relative;
 width:650px;
 height:325px;
 top:10px;
-background-image:url(anoceanofsky.jpg);
+background-image:url(CnC.jpg);
 background-repeat:no-repeat;
 margin-left:10px;
 }
