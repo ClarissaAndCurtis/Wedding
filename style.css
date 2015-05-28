@@ -11,6 +11,7 @@ body
   font-size: 13px;
   color: #061C37;
   background: #014D5D url(background.png);
+  background: #A4A4A4 url(background2.png);
   background-repeat:repeat-x;
 }
 
@@ -41,11 +42,12 @@ body
   line-height: 30px;
   float:left;
   color:#CEEAEE;
+  color:#000000;
   font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
   font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
   font-size:16px;
   font-weight: 600;
-  border-radius: 4px 4px 0 0;
+  border-radius: 0 6px 0 0;
 }
 
 .topNaviagationLink a
@@ -55,7 +57,7 @@ body
   text-decoration: none;
   color: #CDE2FC;
   color: #202020;
-  color: #DDDDDD;
+  color: #EEEEEE;
   display: block;
   width: 110px;
   height: 35px;/*
@@ -68,12 +70,12 @@ body
 .topNaviagationLink a:hover
 {
   text-align: center;
-  border: 1px solid #707070;
+  /*border: 1px solid #707070;*/
   border-bottom: none;
   font-weight: 600;
   color: #0C61C9;
   color: #FFFFFF;
-  color: #404040;
+  color: #505050;
   display: block;
   width: 110px;
   height: 35px;
@@ -82,12 +84,23 @@ body
   background-image: url(tab.png);
   background-size: cover;
   background-size: 100% 100%;
-  border-radius: 4px 4px 0 0;
+  border-radius: 0 8px 0 0;
 }
 
-#currentTab/* .topNaviagationLink*/
+#currentTab
 {
-  font-weight: 700;
+  text-align: center;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#currentTab:hover
+{
+  text-align: center;
+  font-weight: 600;
+  color: #505050;
+  text-decoration: underline;
 }
 
 #mainPicture
@@ -95,8 +108,7 @@ body
   width:670px;
   height:345px;
   background-color:#FFFFFF;
-  border-radius: 4px;
-  border-radius: 0px 4px 4px 4px;
+  border-radius: 0 8px 0 8px;
 }
 
 #mainPicture .picture
@@ -111,7 +123,7 @@ body
   /*background-size:100%;*/
   margin-left:6px;
   border: 1px solid #707070;
-  border-radius: 4px;
+  border-radius: 0 8px 0 8px;
 }
 
 #headerTitle
@@ -142,25 +154,31 @@ body
   height:auto;
   background-color:#FFFFFF;
   margin-top:15px;
-  border: 2px solid #8AC007;
+  margin-top:10px;
   border-radius: 5px;
+  border-radius: 0 8px 0 0;
 }
 
 .contentBox .innerBox
 {
   position:relative;
   width:650px;
-  width:660px;
+  width:658px;
   height:auto;
   top:10px;
   top:5px;
   margin-left:10px;
   margin-left:5px;
   background-image:url(content_back.png);
+  background-image:url(content_back2.png);
+  /*background-size: auto 100%;*/
   background-repeat:repeat-x;
   padding-bottom:35px;
   border: 2px solid #8AC007;
+  border: 1px solid #707070;
   border-radius: 5px;
+  border-radius: 0 8px 0 0;
+  border-bottom: none;
 }
 
 .contentTitle
@@ -177,33 +195,62 @@ margin-top:15px;
 
 .contentText
 {
-font-size:13px;
-line-height:24px;
-margin-left:13px;
-margin-right:13px;
+  font-size:13px;
+  line-height:24px;
+  margin-left:13px;
+  margin-right:13px;
 }
 
-#footer {
-width: 670px;
-height:46px;
-background: url(footer2.png) no-repeat;
-background-position: bottom;
-text-align:center;
-font-size:12px;
-font-family:Arial, Helvetica, sans-serif;
-font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
-color:#386172;
-padding-top:0px;
+#footer
+{
+  margin-top:-1px;
+  margin-bottom:15px;
+  width: 670px;
+  height:46px;
+  background: url(footer3.png) no-repeat;
+  background-position: bottom;
+  background-size: 670px 100%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
+  color:#386172;
+  padding-top:0px;
+}
+
+.footerContent
+{
+  padding-bottom:15px;
+  width:658px;
+  height:auto;
+  text-align:center;
+  font-size:12px;
+  border: 1px solid #707070;
+  border-top: none;
+  border-bottom: none;
+  -webkit-border-image:
+    -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image:
+    -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image:
+    -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+    linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;
 }
 
 #footer a
 {
-text-decoration:none;
-font-size:12px;
-color:#303030;
+  text-decoration:none;
+  font-size:12px;
+  color:#303030;
 }
 
-html, body {
-text-align: center;
+html, body
+{
+  text-align: center;
 }
-p {text-align: left;}
+
+p
+{
+  text-align: left;
+}
