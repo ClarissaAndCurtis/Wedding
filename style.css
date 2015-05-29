@@ -5,20 +5,20 @@ body
   margin: 0;
   padding: 0;
   text-align: left;
-  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-  font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
-  font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 13px;
   color: #061C37;
   background: #014D5D url(background.png);
   background: #A4A4A4 url(background2.png);
-  background-repeat:repeat-x;
+  background-repeat: repeat-x;
 }
 
 *
 {
   margin: 0 auto 0 auto;
-  text-align:left;
+  text-align: left;
 }
 
 #page
@@ -27,7 +27,7 @@ body
   height: auto;
   position: relative;
   overflow: hidden;
-  width: 670px;
+  width: 800px;
 }
 
 .topNaviagationLink
@@ -35,19 +35,48 @@ body
   text-align:center;
   position:relative;
   margin-top:38px;
-  margin-left:-5px;
-  width:110px;
-  height: 35px;
+  margin-left:-5px;/*
+  width:135px;*/
   height: 30px;
   line-height: 30px;
   float:left;
   color:#CEEAEE;
   color:#000000;
   font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-  font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-size:16px;
   font-weight: 600;
   border-radius: 0 6px 0 0;
+}
+
+.topNaviagationLink.home
+{
+  width:90px;
+}
+
+.topNaviagationLink.wedday
+{
+  width:120px;
+}
+
+.topNaviagationLink.accoms
+{
+  width:150px;
+}
+
+.topNaviagationLink.illini
+{
+  width:170px;
+}
+
+.topNaviagationLink.contacts
+{
+  width:100px;
+}
+
+.topNaviagationLink.reg
+{
+  width:100px;
 }
 
 .topNaviagationLink a
@@ -58,8 +87,8 @@ body
   color: #CDE2FC;
   color: #202020;
   color: #EEEEEE;
-  display: block;
-  width: 110px;
+  display: block;/*
+  width: 135px;
   height: 35px;/*
   background-image: url(tab2.png);
   background-size: cover;
@@ -76,10 +105,10 @@ body
   color: #0C61C9;
   color: #FFFFFF;
   color: #505050;
-  display: block;
-  width: 110px;
+  display: block;/*
+  width: 135px;
   height: 35px;
-  height: 30px;
+  height: 30px;*/
   line-height: 30px;
   background-image: url(tab.png);
   background-size: cover;
@@ -105,7 +134,7 @@ body
 
 #mainPicture
 {
-  width:670px;
+  width:800px;
   height:345px;
   background-color:#FFFFFF;
   border-radius: 0 8px 0 8px;
@@ -114,7 +143,7 @@ body
 #mainPicture .picture
 {
   position:relative;
-  width:656px;
+  width:786px;
   height:331px;
   top:6px;
   background-image:url(CnC.jpg);
@@ -132,7 +161,7 @@ body
   top:8px;
   left:20px;
   color:#000000;
-  font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-size:38px;
   font-weight: 900;
 }
@@ -150,7 +179,7 @@ body
 
 .contentBox
 {
-  width:670px;
+  width:800px;
   height:auto;
   background-color:#FFFFFF;
   margin-top:15px;
@@ -163,7 +192,7 @@ body
 {
   position:relative;
   width:650px;
-  width:658px;
+  width:788px;
   height:auto;
   top:10px;
   top:5px;
@@ -185,7 +214,7 @@ body
 {
 font-size:26px;
 font-weight: 800;
-font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 margin-bottom:6px;
 padding-top:18px;
 margin-left:15px;
@@ -205,13 +234,13 @@ margin-top:15px;
 {
   margin-top:-1px;
   margin-bottom:15px;
-  width: 670px;
-  height:46px;
+  width: 800px;
+  height:64px;
   background: url(footer3.png) no-repeat;
   background-position: bottom;
-  background-size: 670px 100%;
+  background-size: 800px 100%;
   font-family:Arial, Helvetica, sans-serif;
-  font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   color:#386172;
   padding-top:0px;
 }
@@ -219,7 +248,7 @@ margin-top:15px;
 .footerContent
 {
   padding-bottom:15px;
-  width:658px;
+  width:788px;
   height:auto;
   text-align:center;
   font-size:12px;
