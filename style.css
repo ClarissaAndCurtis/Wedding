@@ -69,6 +69,7 @@ body
 .topNaviagationLink.wedday
 {
   width:120px;
+  width:130px;
 }
 
 .topNaviagationLink.accoms
@@ -79,6 +80,7 @@ body
 .topNaviagationLink.illini
 {
   width:170px;
+  width:180px;
 }
 
 .topNaviagationLink.contacts
@@ -165,6 +167,27 @@ body
   border-radius: 0 8px 0 8px;
 }
 
+#mainPicture .picture.wedday
+{
+  background-image:url(CnC_ArlingtonPark_small2.jpg);
+}
+#mainPicture .picture.accoms
+{
+  background-image:url(CnC_Pimlico_small2.jpg);
+}
+#mainPicture .picture.illini
+{
+  background-image:url(CnC_Madison_small4.jpg);
+}
+#mainPicture .picture.contacts
+{
+  background-image:url(CnC_ArtScene_small2.jpg);
+}
+#mainPicture .picture.reg
+{
+  background-image:url(CnC_Pimlico_small2.jpg);
+}
+
 #headerTitle
 {
   position:relative;
@@ -190,33 +213,40 @@ body
 
 .contentBox
 {
-  width:770px;
-  height:auto;
-  background-color:#FFFFFF;
-  margin-top:15px;
-  margin-top:10px;
+  width: 770px;
+  height: auto;
+  min-height: 560px;
+  background-color: #FFFFFF;
+  margin-top: 15px;
+  margin-top: 10px;
   border-radius: 5px;
   border-radius: 0 8px 0 0;
 }
 
 .contentBox .innerBox
 {
-  position:relative;
-  width:758px;
-  height:auto;
-  top:10px;
-  top:5px;
-  margin-left:10px;
-  margin-left:5px;
-  background-image:url(content_back.png);
-  background-image:url(content_back2.png);
+  position: relative;
+  width: 758px;
+  height: auto;
+  min-height: 560px;
+  top: 10px;
+  top: 5px;
+  margin-left: 10px;
+  margin-left: 5px;
+  background-image: url(content_back.png);
+  background-image: url(content_back2.png);
   /*background-size: auto 100%;*/
-  background-repeat:repeat-x;
-  padding-bottom:35px;
+  background-repeat: repeat-x;
+  padding-bottom: 35px;
   border: 1px solid #707070;
   border-radius: 5px;
   border-radius: 0 8px 0 0;
   border-bottom: none;
+}
+
+.contentBox .innerBox a
+{
+  color: #000000;
 }
 
 .contentTitle
@@ -233,8 +263,8 @@ margin-top:15px;
 
 .contentText
 {
-  font-size:13px;
-  line-height:24px;
+  font-size:16px;
+  line-height:28px;
   margin-left:13px;
   margin-right:13px;
 }
