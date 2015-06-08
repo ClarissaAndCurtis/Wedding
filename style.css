@@ -64,33 +64,37 @@ body
 .topNaviagationLink.home
 {
   width:90px;
+  width:70px;
 }
 
 .topNaviagationLink.wedday
 {
-  width:120px;
   width:130px;
+  width:125px;
 }
 
 .topNaviagationLink.accoms
 {
   width:150px;
+  width:230px;
 }
 
 .topNaviagationLink.illini
 {
-  width:170px;
   width:180px;
+  width:170px;
 }
 
 .topNaviagationLink.contacts
 {
   width:100px;
+  width:90px;
 }
 
 .topNaviagationLink.reg
 {
   width:100px;
+  width:85px;
 }
 
 .topNaviagationLink a
