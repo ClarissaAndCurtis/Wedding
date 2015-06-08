@@ -250,6 +250,15 @@ body
   color: #000000;
 }
 
+.contentBox .innerBox #pinstripesmap
+{
+  float: right;
+  width: 255px;
+  height: 183px;
+  margin: 0px 30px 15px 0px;
+  border: 1px solid #707070;
+}
+
 .contentTitle
 {
 font-size:26px;
