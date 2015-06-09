@@ -33,9 +33,10 @@ body
 
   margin-top:20px;
   margin-bottom:10px;
-  padding-top: 10px;
+  padding-top: 10px;/*
   background-image: url(tab2.png);
-  background-image: url(tab3.png);
+  background-image: url(tab3.png);*/
+  background-color: #e6e6e6;
   background-size: cover;
   background-size: 100% 100%;
   border: 1px solid #404040;
@@ -107,6 +108,7 @@ body
   color: #202020;
   display: block;
   border-radius: 0 8px 0 8px;
+  transition: all 0.1s ease-in;
 }
 
 .topNaviagationLink a:hover
@@ -120,8 +122,9 @@ body
   color: #505050;
   color: #202020;
   display: block;
-  height: 36px;
-  background-image: url(tab.png);
+  height: 36px;/*
+  background-image: url(tab.png);*/
+  background-color: #ffffff;
   background-size: 100% 100%;
   background-size: cover;
   border-radius: 0 8px 0 8px;
