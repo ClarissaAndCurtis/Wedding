@@ -301,6 +301,7 @@ margin-top:15px;
 
 .footerContent
 {
+  float: center;
   padding-bottom:15px;
   width:758px;
   height:auto;
@@ -321,11 +322,23 @@ margin-top:15px;
     linear-gradient(to bottom, #707070, rgba(0, 0, 0, 0)) 1 100%;
 }
 
+/*.footerContent.footerNav
+{
+  float: left;
+  display: inline;
+}
+
+.footerContent.footerContact
+{
+  float: left;
+  display: inline;
+}*/
+
 #footer a
 {
-  text-decoration:none;
-  font-size:12px;
-  color:#303030;
+  text-decoration: underline;
+  font-size: 12px;
+  color: #303030;
 }
 
 html, body
