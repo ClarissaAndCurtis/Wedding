@@ -187,6 +187,7 @@ body
 #mainPicture .picture.accoms
 {
   background-image:url(CnC_Pimlico_small3.jpg);
+  background-image:url(CnC_smaller7.jpg);
 }
 #mainPicture .picture.illini
 {
@@ -198,8 +199,8 @@ body
 }
 #mainPicture .picture.reg
 {
-  background-image:url(CnC_Pimlico_small3.jpg);
   background-image:url(CnC_Madison_small5.jpg);
+  background-image:url(CnC_Pimlico_small3.jpg);
 }
 
 #headerTitle
