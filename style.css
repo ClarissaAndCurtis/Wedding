@@ -290,7 +290,7 @@ body
   width: 255px;
   height: 183px;
   /* top, right, bottom, left */
-  margin: 0px 70px 15px 0px;
+  margin: -80px 20px 0px 0px;
   border: 1px solid #707070;
 }
 .contentBox .innerBox #stjohnsmap
@@ -299,22 +299,87 @@ body
   width: 200px;
   height: 200px;
   /* top, right, bottom, left */
-  margin: 40px 20px 20px 0px;
+  margin: 0px 20px 0px 0px;
   border: 1px solid #707070;
 }
+#stjohnsmapDiv{margin-top: -10px;}
 .contentBox .innerBox #unionstationmap
 {
   float: right;
   width: 200px;
   height: 200px;
   /* top, right, bottom, left */
-  margin: 40px 20px 20px 0px;
+  margin: 0px 20px 0px 0px;
   border: 1px solid #707070;
+}
+#unionstationmapDiv{margin-top: -10px;}
+.contentBox .innerBox #radissonmap
+{
+  float: right;
+  width: 200px;
+  height: 200px;
+  /* top, right, bottom, left */
+  margin: -10px 20px 0px 0px;
+  border: 1px solid #707070;
+}
+#radissonmapDiv{margin-top: -20px;}
+.contentBox .innerBox #centerMap1
+{
+  float: left;
+  width: 200px;
+  height: 200px;
+  /* top, right, bottom, left */
+  margin: -10px 10px 0px 10px;
+  border: 1px solid #707070;
+}
+#centerMap1Div{margin-top: 0px;}
+.contentBox .innerBox #centerMap2
+{
+  float: left;
+  width: 200px;
+  height: 200px;
+  /* top, right, bottom, left */
+  margin: -10px 10px 0px 10px;
+  border: 1px solid #707070;
+}
+#centerMap2Div{margin-top: 0px;}
+.contentBox .innerBox #centerMap3
+{
+  float: left;
+  width: 200px;
+  height: 200px;
+  /* top, right, bottom, left */
+  margin: -10px 10px 0px 10px;
+  border: 1px solid #707070;
+}
+#centerMap3Div{margin-top: 0px;}
+
+.contentBox .innerBox .mapCaption p
+{
+  text-align: center;
+  padding-top: -10px;
+  font-size: 14px;
+  /* top, right, bottom, left */
+  margin: 0px 20px 0px 0px;
+}
+.contentText .rightMap
+{  float: right;}
+.contentText .centerMap
+{
+  float: left;
+  /*display: relative;*/
+  /* top, right, bottom, left */
+  margin: 0px 0px 40px 0px;/*
+  padding: 0 0 0 0;*/
+}
+.contentText .centerMapContainer
+{
+  float: center;
 }
 
 .contentTitle
 {
-font-size:26px;
+font-size: 26px;
 font-weight: 800;
 font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 margin-bottom:6px;
@@ -341,8 +406,8 @@ margin-top:15px;
 
 .contentText .eventInfo.infoLabel
 {
-  display: inline-block;
-  display: inline;
+  /*display: inline-block;
+  display: inline;*/
   text-align: right;
   margin-left: -60px;
   float: left;
@@ -350,8 +415,8 @@ margin-top:15px;
 }
 .contentText .eventInfo.infoData
 {
-  display: inline-block;
-  display: inline;
+  /*display: inline-block;
+  display: inline;*/
   text-align: left;
   float: left;
   margin-left: 20px;
