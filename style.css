@@ -167,7 +167,7 @@ body
   width:756px;
   height:331px;
   top:6px;
-  background-image:url(CnC_smaller7.jpg);
+  background-image:url(CnC_smaller8.jpg);
   background-repeat:no-repeat;
   background-size:cover;
   /*background-size:100%;*/
@@ -178,20 +178,20 @@ body
 
 #mainPicture .picture.home
 {
-  background-image:url(CnC_smaller7.jpg);
+  background-image:url(CnC_smaller8.jpg);
 }
 #mainPicture .picture.wedday
 {
-  background-image:url(CnC_Pimlico_small3.jpg);
+  background-image:url(CnC_Pimlico_small4.jpg);
 }
 #mainPicture .picture.accoms
 {
-  background-image:url(CnC_Pimlico_small3.jpg);
-  background-image:url(CnC_smaller7.jpg);
+  background-image:url(CnC_Pimlico_small4.jpg);
+  background-image:url(CnC_smaller8.jpg);
 }
 #mainPicture .picture.illini
 {
-  background-image:url(CnC_ArlingtonPark_small8.jpg);
+  background-image:url(CnC_ArlingtonPark_small9.jpg);
 }
 #mainPicture .picture.contacts
 {
@@ -200,7 +200,7 @@ body
 #mainPicture .picture.reg
 {
   background-image:url(CnC_Madison_small5.jpg);
-  background-image:url(CnC_Pimlico_small3.jpg);
+  background-image:url(CnC_Pimlico_small4.jpg);
 }
 
 #headerTitle
@@ -324,7 +324,7 @@ body
 }
 #radissonmapDiv{margin-top: -10px;}
 
-.contentBox .innerBox #centerMap1
+.contentBox .innerBox #syrMap
 {
   float: left;
   width: 250px;
@@ -333,8 +333,8 @@ body
   margin: -10px 30px 0px 30px;
   border: 1px solid #707070;
 }
-#centerMap1Div{margin-top: 0px;}
-.contentBox .innerBox #centerMap2
+#syrMapDiv{margin-top: 0px;}
+.contentBox .innerBox #albMap
 {
   float: left;
   width: 250px;
@@ -343,7 +343,7 @@ body
   margin: -10px 30px 0px 30px;
   border: 1px solid #707070;
 }
-#centerMap2Div{margin-top: 0px;}
+#albMapDiv{margin-top: 0px;}
 
 .contentBox .innerBox .mapCaption p
 {
@@ -370,6 +370,13 @@ body
 .contentText .centerMapContainer .mapCaption p
 {
   margin: 0px 0px 0px 0px;
+}
+.contentText .centerMapContainer .mapHeader p
+{
+  font-size: 16px;
+  font-weight: 600;
+  /* top, right, bottom, left */
+  margin: -10px 0px 15px 0px;
 }
 
 .contentTitle
